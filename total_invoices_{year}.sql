@@ -1,3 +1,3 @@
-SELECT SUM(Invoice.Total) as 'Invoice Total'
+SELECT COUNT(*) as 'Invoice Count'
 From Invoice
 WHERE InvoiceDate LIKE '%2009%' OR InvoiceDate LIKE '%2011%'
