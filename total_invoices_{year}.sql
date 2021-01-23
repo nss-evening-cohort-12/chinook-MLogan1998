@@ -1,3 +1,3 @@
 SELECT COUNT(*) as 'Invoice Count'
 From Invoice
-WHERE InvoiceDate LIKE '2009%' AND '2011%'
+WHERE InvoiceDate LIKE '%2009%' OR InvoiceDate LIKE '%2011%'
