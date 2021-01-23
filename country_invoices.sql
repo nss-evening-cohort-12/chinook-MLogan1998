@@ -1,3 +1,3 @@
-SELECT COUNT(*) as 'Invoices Per Country'
+SELECT COUNT(*), BillingCountry as 'Invoices Per Country'
 From Invoice
 GROUP BY BillingCountry
